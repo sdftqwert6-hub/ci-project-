@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Учебный веб-проект для практической работы по CI/CD.">
+  <title>MyWebsite — цифровое портфолио</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">my<span>website</span></a>
+    <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    <nav class="navigation" aria-label="Основная навигация">
+      <a href="#home">Главная</a>
+      <a href="#about">О проекте</a>
+      <a href="#projects">Работы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">УЧЕБНЫЙ ВЕБ-ПРОЕКТ</p>
+        <h1>Идеи превращаются<br><span>в цифровые решения.</span></h1>
+        <p class="hero-text">Небольшое портфолио, созданное с помощью HTML, CSS и JavaScript. Проект подготовлен для изучения GitHub Actions и GitHub Pages.</p>
+        <a class="primary-button" href="#projects">Посмотреть работы <span>↗</span></a>
+      </div>
+      <div class="hero-art">
+        <img src="images/creative-work.svg" alt="Иллюстрация рабочего пространства веб-дизайнера">
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / О ПРОЕКТЕ</p>
+        <h2>Просто. Понятно. Функционально.</h2>
+      </div>
+      <p class="about-copy">Этот сайт демонстрирует базовую структуру современного веб-проекта: адаптивную разметку, стили, JavaScript и локальные изображения. GitHub Actions автоматически проверяет наличие основных файлов при каждом push в ветку main.</p>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">02 / ПРИМЕРЫ</p>
+        <h2>Учебные направления</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="card-number">01</div>
+          <h3>Веб-дизайн</h3>
+          <p>Создание удобных и визуально понятных интерфейсов.</p>
+          <span class="tag">UI / DESIGN</span>
+        </article>
+        <article class="project-card">
+          <div class="card-number">02</div>
+          <h3>Разработка</h3>
+          <p>Структура страниц, стилизация и интерактивные элементы.</p>
+          <span class="tag">HTML / CSS / JS</span>
+        </article>
+        <article class="project-card">
+          <div class="card-number">03</div>
+          <h3>Публикация</h3>
+          <p>Контроль изменений и автоматическая проверка проекта.</p>
+          <span class="tag">GIT / CI / CD</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contacts">
+      <div>
+        <p class="eyebrow">03 / КОНТАКТЫ</p>
+        <h2>Спасибо за просмотр!</h2>
+        <p>Страница создана в рамках практической работы по CI/CD.</p>
+      </div>
+      <a class="contact-link" href="#home">Вернуться наверх ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> MyWebsite</span>
+    <span>Учебный проект · CI/CD</span>
+  </footer>
+</body>
+</html>

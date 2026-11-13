@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 500" role="img" aria-labelledby="title">
+<title id="title">Рабочее пространство веб-дизайнера</title>
+<rect x="48" y="48" width="544" height="404" rx="34" fill="#e6f1e8"/>
+<circle cx="492" cy="126" r="48" fill="#b9e5c9"/>
+<rect x="122" y="115" width="360" height="248" rx="15" fill="#18231f"/>
+<rect x="136" y="129" width="332" height="218" rx="8" fill="#fbfcf8"/>
+<rect x="155" y="150" width="122" height="10" rx="5" fill="#b9e5c9"/>
+<rect x="155" y="174" width="180" height="7" rx="3.5" fill="#dce5dc"/>
+<rect x="155" y="192" width="145" height="7" rx="3.5" fill="#dce5dc"/>
+<rect x="155" y="225" width="126" height="82" rx="8" fill="#d9ecdf"/>
+<rect x="295" y="225" width="153" height="12" rx="6" fill="#276447"/>
+<rect x="295" y="248" width="132" height="7" rx="3.5" fill="#dce5dc"/>
+<rect x="295" y="265" width="145" height="7" rx="3.5" fill="#dce5dc"/>
+<rect x="295" y="282" width="104" height="7" rx="3.5" fill="#dce5dc"/>
+<path d="M92 364h420l-35 34H127z" fill="#276447"/>
+<rect x="252" y="398" width="100" height="12" rx="6" fill="#18231f"/>
+<circle cx="510" cy="327" r="44" fill="#f4c86a"/>
+<path d="M492 327l13 13 24-29" fill="none" stroke="#18231f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M89 117l17-28 17 28z" fill="#f4c86a"/>
+<circle cx="111" cy="293" r="13" fill="#276447"/>
+</svg>
